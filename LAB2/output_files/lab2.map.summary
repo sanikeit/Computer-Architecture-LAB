@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Sep 07 13:50:57 2021
+Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+Revision Name : lab2
+Top-level Entity Name : alu32bit
+Family : Cyclone IV E
+Total logic elements : 272
+    Total combinational functions : 272
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 100
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 6
+Total PLLs : 0

@@ -1,0 +1,44 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use ieee.numeric_std.all;
+
+entity alu32bit is
+    port(A : in std_logic_vector(31 downto 0);
+          B : in std_logic_vector(31 downto 0);
+         en : in std_logic;
+      cntrl_signal : in std_logic_vector(2 downto 0);
+          Y : out std_logic_vector(31 downto 0));
+end alu32bit;
+
+architecture behavioral of alu32bit is
+
+signal temp : std_logic_vector(63 downto 0);
+
+begin
+    process(en, cntrl_signal)
+        begin
+            if en = '0' then
+                Y <= x"00000000";
+            else
+                if cntrl_signal = "000" then
+                    Y <= A + B;
+                elsif cntrl_signal = "001" then
+                    Y <= A - B;
+                elsif cntrl_signal = "010" then
+                    temp <= std_logic_vector(unsigned(A) * unsigned(B));
+                    Y <= temp(31 downto 0);
+                elsif cntrl_signal = "011" then
+                    Y <= A and B;
+                elsif cntrl_signal = "100" then
+                    Y <= A or B;
+                elsif cntrl_signal = "101" then
+                    Y <= not(A);
+                elsif cntrl_signal = "110" then
+                    Y <= not(B);
+                else
+                    Y <= A xor B;
+                end if;
+            end if;
+    end process;
+end behavioral;
