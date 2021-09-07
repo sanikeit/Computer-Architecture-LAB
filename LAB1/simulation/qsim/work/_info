@@ -1,0 +1,216 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Hp/Desktop/LABS/CS355/LAB1/simulation/qsim
+vpc
+Z1 !s110 1629862210
+!i10b 1
+!s100 k1l>zizceKVgT=WSQLhUB2
+Iz>ED8=U8d6i9]zke?T?mS1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/anike/OneDrive/Desktop/LAB1/simulation/qsim
+w1629862208
+Z4 8LAB1.vo
+Z5 FLAB1.vo
+Z6 L0 32
+Z7 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z8 !s108 1629862210.000000
+Z9 !s107 LAB1.vo|
+Z10 !s90 -work|work|LAB1.vo|
+!i113 1
+Z11 o-work work
+vpc_vlg_check_tst
+Z12 !s110 1629802457
+!i10b 1
+!s100 :=AjbJI=LD]f>`5f>zfg=2
+I0dGJI^G2TT07gdG0IcB=_1
+Z13 V`JN@9S9cnhjKRR_L]QIcM3
+Z14 dC:/Users/mehta/Desktop/Assignmentscs355/LAB1/LAB1/simulation/qsim
+Z15 w1629802448
+Z16 8Waveform_PC.vwf.vt
+Z17 FWaveform_PC.vwf.vt
+L0 68
+Z18 OV;L;10.3c;59
+r1
+!s85 0
+31
+Z19 !s108 1629802457.341000
+Z20 !s107 Waveform_PC.vwf.vt|
+Z21 !s90 -work|work|Waveform_PC.vwf.vt|
+!i113 1
+R11
+vpc_vlg_sample_tst
+R12
+!i10b 1
+!s100 HJK:m=aQ8]mLijdU:NZZ20
+I_g[lSa3?43DcM@2Zed@N92
+R13
+R14
+R15
+R16
+R17
+Z22 L0 30
+R18
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R11
+vpc_vlg_vec_tst
+R1
+!i10b 1
+!s100 E7ISdaLGUlFkF@1hUO=IW0
+Iab5EbgZTZAZTMCFONLVSf1
+R2
+R3
+w1629862205
+R16
+R17
+R22
+R7
+r1
+!s85 0
+31
+R8
+R20
+R21
+!i113 1
+R11
+vR1_Bit
+Z23 !s110 1629799215
+!i10b 1
+!s100 ZGBNckkL2PDV`WbdEW:`Q3
+IChL8?Z2<m8d43QVMCU0Oe3
+R13
+R0
+w1629799214
+R4
+R5
+R6
+R18
+r1
+!s85 0
+31
+!s108 1629799215.149000
+R9
+R10
+!i113 1
+R11
+n@r1_@bit
+vR1_Bit_vlg_vec_tst
+R23
+!i10b 1
+!s100 Ng4aMT_FR?nVIHaGg=lY42
+I:GBW?I=K6Q4XaLk5on;al3
+R13
+R0
+w1629799212
+Z24 8Waveform_R32.vwf.vt
+Z25 FWaveform_R32.vwf.vt
+R22
+R18
+r1
+!s85 0
+31
+!s108 1629799215.217000
+Z26 !s107 Waveform_R32.vwf.vt|
+Z27 !s90 -work|work|Waveform_R32.vwf.vt|
+!i113 1
+R11
+n@r1_@bit_vlg_vec_tst
+vR32_Bit
+Z28 !s110 1629799392
+!i10b 1
+!s100 0X8C<FS9DT0K2]3DLL1gz3
+IgGlld@k2jQE=b0QZj3Z0Q3
+R13
+R0
+w1629799390
+R4
+R5
+R6
+R18
+r1
+!s85 0
+31
+!s108 1629799392.072000
+R9
+R10
+!i113 1
+R11
+n@r32_@bit
+vR32_Bit_vlg_check_tst
+R28
+!i10b 1
+!s100 HmK`JXkEnz2H5f<bklD6f2
+ILT_B:7Jeh4QJV[h2Hknj>1
+R13
+R0
+Z29 w1629799388
+R24
+R25
+L0 64
+R18
+r1
+!s85 0
+31
+Z30 !s108 1629799392.145000
+R26
+R27
+!i113 1
+R11
+n@r32_@bit_vlg_check_tst
+vR32_Bit_vlg_sample_tst
+R28
+!i10b 1
+!s100 ;_CjM@^U1V^a4GBT06:lD1
+IfEjf:MGUGe8=K<adXNJK50
+R13
+R0
+R29
+R24
+R25
+R22
+R18
+r1
+!s85 0
+31
+R30
+R26
+R27
+!i113 1
+R11
+n@r32_@bit_vlg_sample_tst
+vR32_Bit_vlg_vec_tst
+R28
+!i10b 1
+!s100 bLfNmGFV;lIgKQn=]_@Tz3
+IA5zGXTRJ=3=dIKo6@:Vlo1
+R13
+R0
+R29
+R24
+R25
+L0 716
+R18
+r1
+!s85 0
+31
+R30
+R26
+R27
+!i113 1
+R11
+n@r32_@bit_vlg_vec_tst
