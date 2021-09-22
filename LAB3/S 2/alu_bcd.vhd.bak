@@ -1,0 +1,32 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+
+entity alu_bcd is
+	port(
+		A: in std_logic_vector(3 downto 0);
+		B: in std_logic_vector(3 downto 0);
+		cntrl: in std_logic_vector(2 downto 0);
+		output: out std_logic_vector(3 downto 0);
+		output1: out std_logic_vector(6 downto 0);
+		output2: out std_logic_vector(6 downto 0)
+	);
+end alu_bcd;
+
+architecture behav of alu_bcd is
+	signal temp: std_logic_vector(63 downto 0);
+begin
+	process(A,B,cntrl)
+	begin	
+		case(cntrl) is
+			when "000" => output<= A+B;
+			when "001" => output<= A-B;
+			when "010" => temp<= A*B; output<= temp(31 downto 0);
+			when "011" => output<= A and B;
+			when "100" => output<= A or B;
+			when "101" => output<= not A;
+			when "110" => output<= not B;
+			when "111" => output<= A xor B;
+		end case;
+	end process;
+end behav;

@@ -1,0 +1,92 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/20.1/projects/lab_3/simulation/qsim
+valu_bcd
+Z1 !s110 1632241176
+!i10b 1
+!s100 `5OLHNA;:NaU2Ug;Yl7Zf1
+I4[_a;5ndlE_3:NXna4IF_0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/anike/OneDrive/Desktop/lab_3/simulation/qsim
+w1632241173
+8lab_3.vo
+Flab_3.vo
+L0 32
+Z4 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z5 !s108 1632241176.000000
+!s107 lab_3.vo|
+!s90 -work|work|lab_3.vo|
+!i113 1
+Z6 o-work work
+Ealu_bcd_vhd_vec_tst
+Z7 w1630993302
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 11
+R0
+Z10 8Waveform.vwf.vht
+Z11 FWaveform.vwf.vht
+l0
+L32 1
+VT_H@iz<kW48;Q=V1nFZje2
+!s100 G5P5^`2ekPD<0U`03NfGo1
+Z12 OV;C;2020.1;71
+32
+Z13 !s110 1630993304
+!i10b 1
+Z14 !s108 1630993304.000000
+Z15 !s90 -work|work|Waveform.vwf.vht|
+Z16 !s107 Waveform.vwf.vht|
+!i113 1
+R6
+Z17 tExplicit 1 CvgOpt 0
+Aalu_bcd_arch
+R8
+R9
+DEx4 work 19 alu_bcd_vhd_vec_tst 0 22 T_H@iz<kW48;Q=V1nFZje2
+!i122 11
+l53
+L34 121
+VcA9ZZZa3T19azFW@f:]nC2
+!s100 =Xn1m`Y]k]]3Q2Q:4iEQb2
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R6
+R17
+valu_bcd_vlg_vec_tst
+R1
+!i10b 1
+!s100 65PRdAPlGFMh1CRm4>V1L0
+IOQc]:HWzNcTdFjIIoQWiZ1
+R2
+R3
+w1632241170
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6

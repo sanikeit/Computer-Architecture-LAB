@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Hp/OneDrive/Desktop/LABS/CS355/LAB3/simulation/qsim
+vFINAL
+Z1 !s110 1632290013
+!i10b 1
+!s100 L2dGk44BRIaMD=aE>6gLB2
+I8=2n_CCEcEYJO=<5hA?3T0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/anike/OneDrive/Desktop/LAB3/LAB3/simulation/qsim
+w1632290012
+8LAB3.vo
+FLAB3.vo
+L0 32
+Z4 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z5 !s108 1632290013.000000
+!s107 LAB3.vo|
+!s90 -work|work|LAB3.vo|
+!i113 1
+Z6 o-work work
+n@f@i@n@a@l
+vFINAL_vlg_check_tst
+Z7 !s110 1631010660
+!i10b 1
+!s100 n9DQ1BGb_OPgL1]VmN:@c0
+I[VCUTPHP5@JZ:_J>f5N2a3
+Z8 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z9 w1631010656
+Z10 8Waveform.vwf.vt
+Z11 FWaveform.vwf.vt
+L0 62
+Z12 OV;L;10.3c;59
+r1
+!s85 0
+31
+Z13 !s108 1631010660.687000
+Z14 !s107 Waveform.vwf.vt|
+Z15 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+n@f@i@n@a@l_vlg_check_tst
+vFINAL_vlg_sample_tst
+R7
+!i10b 1
+!s100 H]UZ4@CNnzQQ<Y;;5=>j?0
+IoT`Rb7zfC1;a2TWhAFdiE1
+R8
+R0
+R9
+R10
+R11
+Z16 L0 30
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 1
+R6
+n@f@i@n@a@l_vlg_sample_tst
+vFINAL_vlg_vec_tst
+R1
+!i10b 1
+!s100 64N9RZUTQNn3>XTWB39>V1
+I0RF@kTNMlf6FlEk2Qa1iS1
+R2
+R3
+w1632290008
+R10
+R11
+R16
+R4
+r1
+!s85 0
+31
+R5
+R14
+R15
+!i113 1
+R6
+n@f@i@n@a@l_vlg_vec_tst
